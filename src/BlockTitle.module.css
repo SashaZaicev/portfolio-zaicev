@@ -1,0 +1,9 @@
+.blockTitle {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font: 300 40px/1.2 'Josefin Sans', sans-serif;
+}
