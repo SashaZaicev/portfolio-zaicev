@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-zaicev/static/css/main.96350163.chunk.css",
+    "main.js": "/portfolio-zaicev/static/js/main.dbb40dbc.chunk.js",
+    "main.js.map": "/portfolio-zaicev/static/js/main.dbb40dbc.chunk.js.map",
+    "runtime~main.js": "/portfolio-zaicev/static/js/runtime~main.4733d57e.js",
+    "runtime~main.js.map": "/portfolio-zaicev/static/js/runtime~main.4733d57e.js.map",
+    "static/js/2.187d1b21.chunk.js": "/portfolio-zaicev/static/js/2.187d1b21.chunk.js",
+    "static/js/2.187d1b21.chunk.js.map": "/portfolio-zaicev/static/js/2.187d1b21.chunk.js.map",
+    "index.html": "/portfolio-zaicev/index.html",
+    "precache-manifest.2806d6895921a8eff98bf22f988ccfbe.js": "/portfolio-zaicev/precache-manifest.2806d6895921a8eff98bf22f988ccfbe.js",
+    "service-worker.js": "/portfolio-zaicev/service-worker.js",
+    "static/css/main.96350163.chunk.css.map": "/portfolio-zaicev/static/css/main.96350163.chunk.css.map",
+    "static/media/calculator.jpg": "/portfolio-zaicev/static/media/calculator.db6bc0ad.jpg",
+    "static/media/facebook.svg": "/portfolio-zaicev/static/media/facebook.3ebd61f7.svg",
+    "static/media/html-icon.svg": "/portfolio-zaicev/static/media/html-icon.bdd8b44a.svg",
+    "static/media/js-icon.svg": "/portfolio-zaicev/static/media/js-icon.46b346c9.svg",
+    "static/media/linkedin.svg": "/portfolio-zaicev/static/media/linkedin.3b70d0fc.svg",
+    "static/media/react-icon.svg": "/portfolio-zaicev/static/media/react-icon.151e1a81.svg",
+    "static/media/social-network.jpg": "/portfolio-zaicev/static/media/social-network.2955967c.jpg",
+    "static/media/telegram2.svg": "/portfolio-zaicev/static/media/telegram2.89a59036.svg",
+    "static/media/todolist.jpg": "/portfolio-zaicev/static/media/todolist.0570caf1.jpg",
+    "static/media/vk.svg": "/portfolio-zaicev/static/media/vk.8c9399e3.svg"
+  }
+}
