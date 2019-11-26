@@ -33,7 +33,7 @@ class Skill extends React.Component {
     }
 
     render() {
-        debugger
+        // debugger
 
         return (
             <div className={styles.skill}>

@@ -9,12 +9,12 @@ import jsIcon from "./assets/img/js-icon.svg";
 
 
 function Skills(props) {
-    debugger
+    // debugger
     let react = reactIcon;
     let js = jsIcon;
     let html = htmlIcon;
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id={'skills'}>
             <Fade bottom>
                 <div className={styles.container}>
                     {/*<div className={styles.headerTitle}>*/}

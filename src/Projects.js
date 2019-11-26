@@ -18,7 +18,7 @@ function Projects() {
         backgroundImage: `url(${calculatorBgImg})`
     };
     return (
-        <div className={styles.projects}>
+        <div className={styles.projects} id={'projects'}>
             <Fade bottom>
                 <div className={styles.container}>
                     {/*<div className={styles.headerTitle}>*/}
@@ -29,15 +29,25 @@ function Projects() {
                     <div className={styles.projectsWrapper}>
                         <Project title={"To do list"}
                                  style={todolistImg}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                                 href_first={'https://sashazaicev.github.io/to-do-list-zaicev/'}
+                                 href_second={'https://github.com/SashaZaicev/to-do-list-zaicev'}
+                        />
 
                         <Project title={"Socialnetwork"}
                                  style={socialnetworkImg}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                                 href_first={'https://sashazaicev.github.io/social_network_zaicev/'}
+                                 href_second={'https://github.com/SashaZaicev/social_network_zaicev'}
 
-                        <Project title={"Calculator"}
-                                 style={calculatorImg}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                        />
+
+                        {/*<Project title={"Calculator"}*/}
+                        {/*         style={calculatorImg}*/}
+                        {/*         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}*/}
+                        {/*         href_first={'https://vk.com/id53738228'}*/}
+                        {/*         href_second={'https://github.com/SashaZaicev/social_network_zaicev'}*/}
+                        {/*/>*/}
                     </div>
                 </div>
             </Fade>
