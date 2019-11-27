@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c7fc0c56f2bd41eb7e84a4748349890",
+    "revision": "213b72c81118eea8662900bf48d31036",
     "url": "/portfolio-zaicev/index.html"
   },
   {
-    "revision": "90bf946e669760d6984b",
-    "url": "/portfolio-zaicev/static/css/main.96350163.chunk.css"
+    "revision": "39a321f1d04eae6383e0",
+    "url": "/portfolio-zaicev/static/css/main.b2b6377a.chunk.css"
   },
   {
-    "revision": "566457aa7bd9ee695e26",
-    "url": "/portfolio-zaicev/static/js/2.187d1b21.chunk.js"
+    "revision": "b6e5c50589947888f027",
+    "url": "/portfolio-zaicev/static/js/2.59ac5ae3.chunk.js"
   },
   {
-    "revision": "90bf946e669760d6984b",
-    "url": "/portfolio-zaicev/static/js/main.dbb40dbc.chunk.js"
+    "revision": "39a321f1d04eae6383e0",
+    "url": "/portfolio-zaicev/static/js/main.a92ea817.chunk.js"
   },
   {
     "revision": "602e38c5ee946dca1fc2",
     "url": "/portfolio-zaicev/static/js/runtime~main.4733d57e.js"
+  },
+  {
+    "revision": "a8b43a68da1ba4724eb058cb8b827d17",
+    "url": "/portfolio-zaicev/static/media/IMG_0212.a8b43a68.jpg"
   },
   {
     "revision": "db6bc0ad709e12513ebb30460aef00ed",
