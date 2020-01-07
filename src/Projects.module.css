@@ -37,13 +37,9 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-@media screen and (max-width: 1252px) {
-    .projectWrapper {
-        justify-content: center;
-    }
-}
+
 .line {
     height: 1px;
     width: 55px;
@@ -52,5 +48,9 @@
 
 }
 
-
+@media screen and (max-width: 1252px) {
+    .projectsWrapper {
+        justify-content: center;
+    }
+}
 

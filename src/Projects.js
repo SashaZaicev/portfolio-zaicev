@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Projects.module.css'
 import BlockTitle from "./BlockTitle";
-import todolistBgImg from './assets/img/todolist.jpg'
+import todolistBgImg from './assets/img/todolist.png'
 import socialnetworkBgImg from './assets/img/social-network.jpg'
-import calculatorBgImg from './assets/img/calculator.jpg'
+import phoneshopBgImg from './assets/img/phone-shop.png'
 import Project from "./Project";
 import Fade from 'react-reveal/Fade';
 
@@ -14,8 +14,8 @@ function Projects() {
     const socialnetworkImg = {
         backgroundImage: `url(${socialnetworkBgImg})`
     };
-    const calculatorImg = {
-        backgroundImage: `url(${calculatorBgImg})`
+    const phoneshopImg = {
+        backgroundImage: `url(${phoneshopBgImg})`
     };
     return (
         <div className={styles.projects} id={'projects'}>
@@ -29,25 +29,26 @@ function Projects() {
                     <div className={styles.projectsWrapper}>
                         <Project title={"To do list"}
                                  style={todolistImg}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                                 description={'To do list for every day on the week'}
                                  href_first={'https://sashazaicev.github.io/to-do-list-zaicev/'}
                                  href_second={'https://github.com/SashaZaicev/to-do-list-zaicev'}
                         />
 
                         <Project title={"Socialnetwork"}
                                  style={socialnetworkImg}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                                 description={'Social network: research project,\n' +
+                                 'sharpening skills'}
                                  href_first={'https://sashazaicev.github.io/social_network_zaicev/'}
                                  href_second={'https://github.com/SashaZaicev/social_network_zaicev'}
 
                         />
 
-                        {/*<Project title={"Calculator"}*/}
-                        {/*         style={calculatorImg}*/}
-                        {/*         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}*/}
-                        {/*         href_first={'https://vk.com/id53738228'}*/}
-                        {/*         href_second={'https://github.com/SashaZaicev/social_network_zaicev'}*/}
-                        {/*/>*/}
+                        <Project title={"Phone-shop"}
+                                 style={phoneshopImg}
+                                 description={'Mobile phone shop with use paypal'}
+                                 href_first={'https://react-phone-store-zaicev.netlify.com/'}
+                                 href_second={'https://github.com/SashaZaicev/react-phone-store'}
+                        />
                     </div>
                 </div>
             </Fade>

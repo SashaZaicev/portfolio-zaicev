@@ -1,0 +1,44 @@
+body {
+  background-color: #efefef;
+  position: relative;
+  color: #3d4451;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  position: absolute;
+}
+
+a {
+  color: #3d4451;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3d4451;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1110px) {
+  .wrapper {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .wrapper {
+    width: 570px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .wrapper {
+    width: 73%;
+  }
+}

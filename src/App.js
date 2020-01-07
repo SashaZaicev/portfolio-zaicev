@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Skills from "./Skills";
 import Main from "./Main";
-import Header from "./Header";
+import Header from "./components/Header/HeaderNew";
 import Slogan from "./Slogan";
 import Project from "./Projects";
 import Contacts from "./Contacts";
