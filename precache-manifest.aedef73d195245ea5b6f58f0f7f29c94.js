@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "213b72c81118eea8662900bf48d31036",
+    "revision": "c20873dd57a156e7a87c27ed7365a580",
     "url": "/portfolio-zaicev/index.html"
   },
   {
-    "revision": "39a321f1d04eae6383e0",
-    "url": "/portfolio-zaicev/static/css/main.b2b6377a.chunk.css"
+    "revision": "009f047797b4486afb9d",
+    "url": "/portfolio-zaicev/static/css/main.7fc0c4b7.chunk.css"
   },
   {
-    "revision": "b6e5c50589947888f027",
-    "url": "/portfolio-zaicev/static/js/2.59ac5ae3.chunk.js"
+    "revision": "9cddb98da85200818c41",
+    "url": "/portfolio-zaicev/static/js/2.7218ee6e.chunk.js"
   },
   {
-    "revision": "39a321f1d04eae6383e0",
-    "url": "/portfolio-zaicev/static/js/main.a92ea817.chunk.js"
+    "revision": "009f047797b4486afb9d",
+    "url": "/portfolio-zaicev/static/js/main.4bc6b510.chunk.js"
   },
   {
     "revision": "602e38c5ee946dca1fc2",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a8b43a68da1ba4724eb058cb8b827d17",
     "url": "/portfolio-zaicev/static/media/IMG_0212.a8b43a68.jpg"
-  },
-  {
-    "revision": "db6bc0ad709e12513ebb30460aef00ed",
-    "url": "/portfolio-zaicev/static/media/calculator.db6bc0ad.jpg"
   },
   {
     "revision": "3ebd61f7dcd409da550f42706f2c3b52",
@@ -44,6 +40,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-zaicev/static/media/linkedin.3b70d0fc.svg"
   },
   {
+    "revision": "68c70ec8ccb0ceda11610c13716a4b44",
+    "url": "/portfolio-zaicev/static/media/menuLogo.68c70ec8.png"
+  },
+  {
+    "revision": "76261b225f8cdfb81762ec229481e42f",
+    "url": "/portfolio-zaicev/static/media/phone-shop.76261b22.png"
+  },
+  {
     "revision": "151e1a817730225dd372a121109cf80e",
     "url": "/portfolio-zaicev/static/media/react-icon.151e1a81.svg"
   },
@@ -56,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-zaicev/static/media/telegram2.89a59036.svg"
   },
   {
-    "revision": "0570caf12588f65bf6e85780ea23a436",
-    "url": "/portfolio-zaicev/static/media/todolist.0570caf1.jpg"
+    "revision": "98cdd7acaaa7b240608ff437f7f6a5b9",
+    "url": "/portfolio-zaicev/static/media/todolist.98cdd7ac.png"
   },
   {
     "revision": "8c9399e31ce755970497937f81573e54",
