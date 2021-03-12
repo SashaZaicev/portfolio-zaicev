@@ -5,6 +5,7 @@ function Main() {
     return (
         <div className={styles.main} id={'main'}>
             <div className={styles.container}>
+
                 <div className={styles.greeting}>
                     <span>Hello!</span>
                     <span>My name <span>Alexander</span></span>

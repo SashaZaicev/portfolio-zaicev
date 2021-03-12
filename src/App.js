@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Skills from "./Skills";
 import Main from "./Main";
@@ -9,7 +9,7 @@ import Contacts from "./Contacts";
 import Footer from "./Footer";
 import Particles from 'react-particles-js';
 
-const particlesOpt = {
+const particlesOptDark = {
     "particles": {
         "number": {
             "value": 150,
@@ -18,15 +18,43 @@ const particlesOpt = {
                 "value_area": 800
             }
         },
+        // "color": {
+        //     "value": "#ff0303"
+        // },
+        // "line_linked":{
+        //     "color": "#ff0303"
+        // }
+    },
+};
+const particlesOptLight = {
+    "particles": {
+        "number": {
+            "value": 150,
+            "density": {
+                "enable": true,
+                "value_area": 800
+            }
+        },
+        "color": {
+            "value": "#ff0303"
+        },
+        "line_linked": {
+            "color": "#ff0303"
+        }
     },
 };
 
 function App() {
+    const [changesTheme, setChangesTheme] = useState(true)
+
     return (
         <div className="App">
             <Particles className="particles"
-                       params={particlesOpt}/>
-            <Header/>
+                       params={changesTheme ? particlesOptDark : particlesOptLight}/>
+            <Header
+                changesTheme={changesTheme}
+                setChangesTheme={setChangesTheme}
+            />
             <Main/>
             <Skills/>
             <Project/>

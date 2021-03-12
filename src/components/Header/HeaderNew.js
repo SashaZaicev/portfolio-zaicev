@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import style from './Header.module.scss'
+import style from './Header.module.css'
 import menuLogo from '../../common/img/menuLogo.png'
 import {connect} from "react-redux";
-import {changeNavBarAC} from "../../reducers/reducer";
+import {changedThemeAC, changeNavBarAC} from "../../reducers/reducer";
 
 class HeaderNew extends Component {
 
@@ -10,7 +10,7 @@ class HeaderNew extends Component {
         styleLink: {
             color: ''
         },
-        styleNav:{
+        styleNav: {
             background: ''
         }
     }
@@ -22,16 +22,16 @@ class HeaderNew extends Component {
                     styleLink: {
                         color: '#3d4451'
                     },
-                    styleNav:{
+                    styleNav: {
                         // background: '#fff',
                     }
                 })
-            } else{
+            } else {
                 this.setState({
                     styleLink: {
                         color: '#3d4451'
                     },
-                    styleNav:{
+                    styleNav: {
                         // background: '#fff'
                     }
                 })
@@ -46,16 +46,26 @@ class HeaderNew extends Component {
     isCloseNav = () => {
         this.props.changeNavBarAC(false)
     }
-
+    changedTheme = () => {
+        this.props.setChangesTheme(!this.props.changesTheme)
+    }
+    // changedLightTheme = () => {
+    //     alert('I see light!')
+    //     this.props.changedThemeAC(true)
+    // }
 
     render() {
 
         let sections = this.props.sectionsMenu.map((link, index) => <a className={style.link}
                                                                        style={this.state.styleLink} key={index}
                                                                        onClick={this.isCloseNav}
-                                                                       href={'#' + link} title={link}><span>{link} </span></a>)
+                                                                       href={'#' + link}
+                                                                       title={link}><span>{link} </span></a>)
         return (
             <div className={style.wrapper}>
+                <button className={style.contButton} onClick={
+                    this.changedTheme}>TypeColor CLICK ME
+                </button>
                 {this.props.isOpenNavBar ?
                     <div className={style.container} style={this.state.styleNav}>
                         <img className={style.isOpenMenuLogo} src={menuLogo} onClick={this.isCloseNav}/>
@@ -74,7 +84,8 @@ class HeaderNew extends Component {
 const mapStateToProps = (state) => (
     {
         isOpenNavBar: state.isOpenNavBar,
-        sectionsMenu: state.sectionsMenu
+        sectionsMenu: state.sectionsMenu,
+        changeTheme: state.changesTheme,
     }
 )
 
