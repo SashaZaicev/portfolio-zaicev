@@ -4,6 +4,7 @@ import BlockTitle from "./BlockTitle";
 import todolistBgImg from './assets/img/todolist.png'
 import socialnetworkBgImg from './assets/img/social-network.jpg'
 import phoneshopBgImg from './assets/img/phone-shop.png'
+import webPhotoImg from './assets/img/webPhoto.png'
 import Project from "./Project";
 import Fade from 'react-reveal/Fade';
 
@@ -16,6 +17,9 @@ function Projects() {
     };
     const phoneshopImg = {
         backgroundImage: `url(${phoneshopBgImg})`
+    };
+    const photoWebImg = {
+        backgroundImage: `url(${webPhotoImg})`
     };
     return (
         <div className={styles.projects} id={'projects'}>
@@ -40,6 +44,8 @@ function Projects() {
                                  'sharpening skills'}
                                  href_first={'https://sashazaicev.github.io/social_network_zaicev/'}
                                  href_second={'https://github.com/SashaZaicev/social_network_zaicev'}
+                                 href_third={'https://sashazaicev.github.io/social-network-ts/'}
+                                 href_fourth={'https://github.com/SashaZaicev/social-network-ts'}
 
                         />
 
@@ -48,6 +54,12 @@ function Projects() {
                                  description={'Mobile phone shop with use paypal'}
                                  href_first={'https://react-phone-store-zaicev.netlify.com/'}
                                  href_second={'https://github.com/SashaZaicev/react-phone-store'}
+                        />
+                        <Project title={"Web-Photo"}
+                                 style={photoWebImg}
+                                 description={'For photographer with reverse form'}
+                                 href_first={'https://sashazaicev.github.io/photo_web/'}
+                                 href_second={'https://github.com/SashaZaicev/photo_web'}
                         />
                     </div>
                 </div>

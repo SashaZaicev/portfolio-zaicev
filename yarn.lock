@@ -4187,6 +4187,11 @@
   "resolved" "https://registry.npmjs.org/email-addresses/-/email-addresses-3.1.0.tgz"
   "version" "3.1.0"
 
+"emailjs-com@^2.6.4":
+  "integrity" "sha512-4G8rxq+1mbL4rGntMa9tqNJ4N9BhuCl8lFJASDHxZVXeC82ivwL6qw+Zu48cAWHpNK2/F3vScaAZk8zoTAfiAA=="
+  "resolved" "https://registry.npmjs.org/emailjs-com/-/emailjs-com-2.6.4.tgz"
+  "version" "2.6.4"
+
 "emittery@^0.7.1":
   "integrity" "sha512-A8OG5SR/ij3SsJdWDJdkkSYUjQdCUx6APQXem0SaEePBSRg4eymGYwBkKo1Y6DU+af/Jn2dBQqDBvjnr9Vi8nQ=="
   "resolved" "https://registry.npmjs.org/emittery/-/emittery-0.7.2.tgz"
@@ -9129,7 +9134,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.1.tgz"
   "version" "17.0.1"
 
-"react-particles-js@^2.7.0":
+"react-particles-js@^2.7.1":
   "integrity" "sha512-H3lnlcnc35HRismahWl8n/1IBNvP1u78r1YdS+QigDYwGkv4Bxqjdp3qLkQOkQnGLzaO5iu+Z4TWnyLVxOKPtA=="
   "resolved" "https://registry.npmjs.org/react-particles-js/-/react-particles-js-2.7.1.tgz"
   "version" "2.7.1"

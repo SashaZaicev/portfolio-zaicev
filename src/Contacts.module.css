@@ -21,7 +21,7 @@
 }
 
 .formArea, .messageArea {
-    background-color: #252527 !important;
+    /*background-color: #252527 !important;*/
     border: 1px solid #4a4a4a;
     box-sizing: border-box;
     font-size: 12px;
@@ -29,7 +29,7 @@
     line-height: 1.5;
     /*font-size: 1rem;*/
     font-weight: 400;
-    color: #495057;
+    color: #000000;
     margin-bottom: 1.2rem;
 }
 
