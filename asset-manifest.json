@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-zaicev/static/css/main.dc38a563.chunk.css",
-    "main.js": "/portfolio-zaicev/static/js/main.6dfc0fa7.chunk.js",
-    "main.js.map": "/portfolio-zaicev/static/js/main.6dfc0fa7.chunk.js.map",
+    "main.css": "/portfolio-zaicev/static/css/main.dce80325.chunk.css",
+    "main.js": "/portfolio-zaicev/static/js/main.6b35d9b3.chunk.js",
+    "main.js.map": "/portfolio-zaicev/static/js/main.6b35d9b3.chunk.js.map",
     "runtime-main.js": "/portfolio-zaicev/static/js/runtime-main.4f98596a.js",
     "runtime-main.js.map": "/portfolio-zaicev/static/js/runtime-main.4f98596a.js.map",
-    "static/js/2.c0029089.chunk.js": "/portfolio-zaicev/static/js/2.c0029089.chunk.js",
-    "static/js/2.c0029089.chunk.js.map": "/portfolio-zaicev/static/js/2.c0029089.chunk.js.map",
+    "static/js/2.8d138d25.chunk.js": "/portfolio-zaicev/static/js/2.8d138d25.chunk.js",
+    "static/js/2.8d138d25.chunk.js.map": "/portfolio-zaicev/static/js/2.8d138d25.chunk.js.map",
     "index.html": "/portfolio-zaicev/index.html",
-    "static/css/main.dc38a563.chunk.css.map": "/portfolio-zaicev/static/css/main.dc38a563.chunk.css.map",
-    "static/js/2.c0029089.chunk.js.LICENSE.txt": "/portfolio-zaicev/static/js/2.c0029089.chunk.js.LICENSE.txt",
+    "static/css/main.dce80325.chunk.css.map": "/portfolio-zaicev/static/css/main.dce80325.chunk.css.map",
+    "static/js/2.8d138d25.chunk.js.LICENSE.txt": "/portfolio-zaicev/static/js/2.8d138d25.chunk.js.LICENSE.txt",
     "static/media/Main.module.css": "/portfolio-zaicev/static/media/IMG_0212.aeb71117.jpg",
     "static/media/facebook.e149981a.svg": "/portfolio-zaicev/static/media/facebook.e149981a.svg",
     "static/media/html-icon.285bdcd4.svg": "/portfolio-zaicev/static/media/html-icon.285bdcd4.svg",
@@ -21,12 +21,13 @@
     "static/media/social-network.91e20c0c.jpg": "/portfolio-zaicev/static/media/social-network.91e20c0c.jpg",
     "static/media/telegram2.9fc32b6a.svg": "/portfolio-zaicev/static/media/telegram2.9fc32b6a.svg",
     "static/media/todolist.ef42c283.png": "/portfolio-zaicev/static/media/todolist.ef42c283.png",
-    "static/media/vk.33e7f5db.svg": "/portfolio-zaicev/static/media/vk.33e7f5db.svg"
+    "static/media/vk.33e7f5db.svg": "/portfolio-zaicev/static/media/vk.33e7f5db.svg",
+    "static/media/webPhoto.1cc216a3.png": "/portfolio-zaicev/static/media/webPhoto.1cc216a3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4f98596a.js",
-    "static/js/2.c0029089.chunk.js",
-    "static/css/main.dc38a563.chunk.css",
-    "static/js/main.6dfc0fa7.chunk.js"
+    "static/js/2.8d138d25.chunk.js",
+    "static/css/main.dce80325.chunk.css",
+    "static/js/main.6b35d9b3.chunk.js"
   ]
 }
