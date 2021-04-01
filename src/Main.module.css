@@ -21,7 +21,7 @@
 }
 
 .greeting span:nth-child(1) {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .greeting span:nth-child(2),
@@ -46,6 +46,24 @@
     z-index: -1;
 }
 
+.greeting a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ea548d;
+}
+
+
+.downloadCV {
+    font-size: x-large;
+    position: relative;
+    z-index: 5;
+}
+
+.downloadCV a:hover {
+    font-weight: bold;
+    font-size: medium;
+}
+
 h1 {
     font-size: 27px;
     margin: 0;
@@ -56,9 +74,10 @@ h1 {
     position: relative;
     z-index: 1;
 }
+
 .photo:hover {
-  transform: scale(1.1, 1.1);
-  transition: 500ms;
+    transform: scale(1.1, 1.1);
+    transition: 500ms;
 }
 
 .image {
@@ -66,7 +85,7 @@ h1 {
     width: 300px;
     /*background-color: #f2f2f2;*/
     background-image: url("./img/IMG_0212.jpg");
-    background-size:  cover;
+    background-size: cover;
 }
 
 .photo .image:before {
