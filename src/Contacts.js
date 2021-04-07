@@ -28,7 +28,9 @@ function Contacts() {
                         <input type="hidden" name="contact_number"/>
                         <input className={styles.formArea} name="from_name" placeholder="Name" type="text" cols="30"/>
                         <input className={styles.formArea} name="user_email" placeholder="e-mail" type="email"/>
-                        <textarea className={styles.messageArea} name="message" placeholder="Message" id="" cols="30"
+                        <textarea className={styles.messageArea} name="message"
+                                  placeholder="This form works, but sends your message to a test mail. Please, if you want to write to me, use the contacts listed below."
+                                  id="" cols="30"
                                   rows="10"/>
                         <button className={styles.btnSubmit} value="Send" type="submit">SEND</button>
                     </form>

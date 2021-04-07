@@ -3,9 +3,12 @@ import styles from './Skill.module.css';
 import htmlIcon from '../src/assets/img/html-icon.svg';
 import reactIcon from "./assets/img/react-icon.svg";
 import jsIcon from "./assets/img/js-icon.svg";
+import typescript from "./assets/img/ts2.svg";
+
 let react = reactIcon;
 let js = jsIcon;
 let html = htmlIcon;
+let ts = typescript
 
 class Skill extends React.Component {
     constructor(props) {
@@ -26,6 +29,12 @@ class Skill extends React.Component {
             {
                 icon: react,
                 title: "REACT",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur " +
+                        "dicta distinctio "
+            },,
+            {
+                icon: ts,
+                title: "TYPE SCRIPT",
                 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur " +
                         "dicta distinctio "
             },

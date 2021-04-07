@@ -6,8 +6,7 @@ import Fade from 'react-reveal/Fade';
 import htmlIcon from '../src/assets/img/html-icon.svg';
 import reactIcon from "./assets/img/react-icon.svg";
 import jsIcon from "./assets/img/js-icon.svg";
-import typescript from "./assets/img/js-icon.svg";
-
+import typescript from "./assets/img/ts2.svg";
 
 
 function Skills(props) {
@@ -25,25 +24,26 @@ function Skills(props) {
                     {/*</div>*/}
                     <div className={styles.skillsWrapper}>
                         <Skill
-                            icon={html}
-                            title={"HTML & CSS"}
-                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi " +
-                            "consequatur dicta "}/>
+                            icon={react}
+                            title={"REACT"}
+                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur " +
+                            "dicta distinctio "}/>
                         <Skill
                             icon={js}
                             title={"JS"}
                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi " +
                             "consequatur dicta distinctio"}/>
                         <Skill
-                            icon={react}
-                            title={"REACT"}
-                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur " +
-                            "dicta distinctio "}/>
-                        <Skill
-                            icon={react}
+                            icon={typescript}
                             title={"TYPESCRIPT"}
                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur " +
                             "dicta distinctio "}/>
+                        <Skill
+                            icon={html}
+                            title={"HTML & CSS"}
+                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi " +
+                            "consequatur dicta "}/>
+
                     </div>
                 </div>
             </Fade>
