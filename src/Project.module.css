@@ -68,3 +68,14 @@
     line-height: 1.2;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 550px) {
+    .project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .projectImg {
+        flex-direction: column;
+    }
+}

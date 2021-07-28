@@ -16,26 +16,28 @@
 /*//  position: absolute;*/
 /*//  background-color: rgba(44, 51, 64, 0.6);*/
 /*//}*/
+.wrapper {
+
+}
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 14px;
+    top: 24px;
     left: 58px;
     width: 100%;
     z-index: 10;
 }
 
 .contButton {
-    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0%;
-    left: 65%;
-    width: 300px;
+    top: 0;
+    right: 10%;
+    min-width: 300px;
     z-index: 10;
 }
 
@@ -81,7 +83,7 @@ nav {
     position: fixed;
     width: 45px;
     height: 55px;
-    top: 8px;
+    top: 20px;
     left: 10px;
     cursor: pointer;
     z-index: 666;
@@ -94,7 +96,7 @@ nav {
 @media screen and (max-width: 695px) {
     .link {
         font-size: 15px;
-        margin: 5px;
+        /*margin: 5px;*/
     }
 }
 
@@ -104,12 +106,7 @@ nav {
     }
 
     nav {
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    .link {
-        font-size: 15px;
-        margin: 5px 3px;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .isCloseMenuLogo, .isOpenMenuLogo {
@@ -120,9 +117,22 @@ nav {
 }
 
 @media screen and (max-width: 530px) {
+    .contButton {
+        width: 100%;
+        right: auto;
+    }
+
+    .container {
+        left: 0;
+    }
+
+    .isOpenMenuLogo,
+    .isCloseMenuLogo {
+        margin-left: 45%;
+    }
 
     nav {
-        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
     }
 }
 
@@ -130,7 +140,6 @@ nav {
     .isCloseMenuLogo, .isOpenMenuLogo {
         width: 30px;
         height: 40px;
-
     }
 }
 

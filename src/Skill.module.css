@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 0 30px -14px;
+    margin: 0 0 30px -14px;
 }
  .skill div:first-child{
     height: 80px;
@@ -55,7 +55,7 @@
 @media screen and (max-width: 1128px) {
     .skill {
         width: 500px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 }
 

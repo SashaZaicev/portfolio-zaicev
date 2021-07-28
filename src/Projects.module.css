@@ -1,5 +1,5 @@
 .projects {
-    min-height: 100vh;
+    min-height: 100%;
     background-color: #1f1f20;
     display: flex;
     justify-content: center;
@@ -8,6 +8,7 @@
     /*align-items: center;*/
     /*font-size: 150%;*/
 }
+
 .container {
     width: 80%;
     display: flex;
@@ -32,9 +33,9 @@
 }
 
 /*.tableSkills{*/
-.projectsWrapper{
+.projectsWrapper {
     /*padding-top: 85px;*/
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -49,8 +50,14 @@
 }
 
 @media screen and (max-width: 1252px) {
+
     .projectsWrapper {
         justify-content: center;
     }
 }
 
+@media screen and (max-width: 550px) {
+    .projectsWrapper {
+        width: 100vw;
+    }
+}
