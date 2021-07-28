@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-zaicev/static/css/main.e9da1286.chunk.css",
-    "main.js": "/portfolio-zaicev/static/js/main.35f437ad.chunk.js",
-    "main.js.map": "/portfolio-zaicev/static/js/main.35f437ad.chunk.js.map",
+    "main.css": "/portfolio-zaicev/static/css/main.77658140.chunk.css",
+    "main.js": "/portfolio-zaicev/static/js/main.22e2af18.chunk.js",
+    "main.js.map": "/portfolio-zaicev/static/js/main.22e2af18.chunk.js.map",
     "runtime-main.js": "/portfolio-zaicev/static/js/runtime-main.4f98596a.js",
     "runtime-main.js.map": "/portfolio-zaicev/static/js/runtime-main.4f98596a.js.map",
     "static/js/2.8d138d25.chunk.js": "/portfolio-zaicev/static/js/2.8d138d25.chunk.js",
     "static/js/2.8d138d25.chunk.js.map": "/portfolio-zaicev/static/js/2.8d138d25.chunk.js.map",
     "index.html": "/portfolio-zaicev/index.html",
-    "static/css/main.e9da1286.chunk.css.map": "/portfolio-zaicev/static/css/main.e9da1286.chunk.css.map",
+    "static/css/main.77658140.chunk.css.map": "/portfolio-zaicev/static/css/main.77658140.chunk.css.map",
     "static/js/2.8d138d25.chunk.js.LICENSE.txt": "/portfolio-zaicev/static/js/2.8d138d25.chunk.js.LICENSE.txt",
     "static/media/CV Zaitsau.4df5fc11.pdf": "/portfolio-zaicev/static/media/CV Zaitsau.4df5fc11.pdf",
     "static/media/Main.module.css": "/portfolio-zaicev/static/media/IMG_0212.aeb71117.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f98596a.js",
     "static/js/2.8d138d25.chunk.js",
-    "static/css/main.e9da1286.chunk.css",
-    "static/js/main.35f437ad.chunk.js"
+    "static/css/main.77658140.chunk.css",
+    "static/js/main.22e2af18.chunk.js"
   ]
 }
